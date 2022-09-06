@@ -3,6 +3,7 @@ import Topbar from "./components/topbar/Topbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./App.css";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
       <div className="container">
         <Sidebar />
         <Switch>
-          <div className="main__content">
-            
-          </div>
+          <Home />
         </Switch>
 
       </div>
