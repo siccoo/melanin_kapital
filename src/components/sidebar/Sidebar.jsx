@@ -15,7 +15,7 @@ export default function Sidebar() {
       <div className="sidebar__wrapper">
         <div className="sidebar__menu">
           <ul className="sidebar__list">
-            <li className="sidebar__listItem active">
+            <li className="sidebar__listItem ">
               <VscHome className="sidebar__icon" /> Home
             </li>
             <li className="sidebar__listItem">
@@ -24,7 +24,7 @@ export default function Sidebar() {
             <li className="sidebar__listItem">
               <ImInsertTemplate className="sidebar__icon" /> Risk profile
             </li>
-            <li className="sidebar__listItem">
+            <li className="sidebar__listItem active">
               <AiOutlinePieChart className="sidebar__icon" /> Funding
             </li>
             <li className="sidebar__listItem">
