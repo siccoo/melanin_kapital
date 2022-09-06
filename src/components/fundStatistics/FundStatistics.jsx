@@ -10,9 +10,10 @@ export default function FundStatistics() {
         <span>
           What kind of funding would you like to get for your business?
         </span>
+        <div style={{display: 'flex'}}>
         <div className="fundStatLoan">
           <p>
-            Get A Loan{" "}
+            Get <br />A Loan{" "}
             <span>
               <FiArrowUpRight />
             </span>
@@ -26,6 +27,8 @@ export default function FundStatistics() {
             </span>
           </p>
         </div>
+        </div>
+        
       </section>
 
       <section className="fundStatContainerOne">
