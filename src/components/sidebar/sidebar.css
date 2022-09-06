@@ -37,7 +37,7 @@
 }
 
 .sidebar__listItem.active, .sidebar__listItem.hover {
-    background-color: #ebebeb;
+    background-color: #FF8C00;
 }
 
 .sidebar__icon {
