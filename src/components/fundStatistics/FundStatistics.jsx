@@ -1,6 +1,7 @@
 import "./fundstatistics.css";
 
 import { FiArrowUpRight } from "react-icons/fi";
+import LoanHistory from "../loanHistory/LoanHistory";
 
 export default function FundStatistics() {
   return (
@@ -10,18 +11,18 @@ export default function FundStatistics() {
         <span>
           What kind of funding would you like to get for your business?
         </span>
-        <div style={{display: 'flex'}}>
+        <div style={{display: 'flex',justifyContent:'space-between'}}>
         <div className="fundStatLoan">
           <p>
-            Get <br />A Loan{" "}
-            <span>
+            Get <br />A Loan{" "}{" "}
+            {" "}<span>
               <FiArrowUpRight />
             </span>
           </p>
         </div>
         <div className="fundStatCapital">
           <p>
-            Get Private Capital{" "}
+            Get Private <br />Capital{" "}
             <span>
               <FiArrowUpRight />
             </span>
@@ -42,6 +43,7 @@ export default function FundStatistics() {
           <span>Total loan borrowed</span>
         </div>
       </section>
+    <LoanHistory />
     </div>
   );
 }

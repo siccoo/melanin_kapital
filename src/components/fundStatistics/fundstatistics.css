@@ -1,5 +1,5 @@
 .fundStatWrapper {
-  width: 100%;
+  flex: 3;
   display: flex;
 }
 
@@ -26,6 +26,8 @@
     width: 40%;
     padding: 7px;
     border-radius: 5px;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .fundStatLoan span{
@@ -40,6 +42,12 @@
     padding: 7px;
     margin-right: 15px;
     border-radius: 5px;
+}
+
+.fundStatCapital span{
+    background: #c3f7d9;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .fundStatContainerOne {

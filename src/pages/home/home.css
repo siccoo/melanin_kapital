@@ -1,8 +1,13 @@
 .home {
     flex: 4;
     background-color: #ececec;
-    padding: 15px;
-    height: calc(100vh - 50px);
+    /* height: calc(100vh - 50px);
     position: sticky;
-    top: 50px;
-  }
+    top: 50px; */
+}
+
+.homeWidgets {
+  display: flex;
+  margin: 10px;
+}
+
