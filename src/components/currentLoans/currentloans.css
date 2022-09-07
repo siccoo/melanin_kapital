@@ -1,3 +1,6 @@
 .currentLoansWrapper {
-    flex: 1;
+    flex: 1.8;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 10px;
 }
