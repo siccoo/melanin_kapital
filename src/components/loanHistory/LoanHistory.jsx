@@ -4,13 +4,20 @@ import { Chart, BarSeries } from "@devexpress/dx-react-chart-material-ui";
 import "./loanhistory.css";
 
 const data = [
-  { year: "1950", population: 2.525 },
-  { year: "1960", population: 3.018 },
-  { year: "1970", population: 3.682 },
-  { year: "1980", population: 4.44 },
-  { year: "1990", population: 5.31 },
-  { year: "2000", population: 6.127 },
-  { year: "2010", population: 6.93 },
+  
+  { month: "May", population: 6.93 },
+  { month: "June", population: 6.93 },
+  { month: "July", population: 6.93 },
+  { month: "August", population: 6.93 },
+  { month: "Jan", population: 2.525 },
+  { month: "Feb", population: 3.018 },
+  { month: "March", population: 3.682 },
+  { month: "April", population: 4.44 },
+  { month: "September", population: 6.93 },
+  { month: "October", population: 6.93 },
+  { month: "November", population: 6.93 },
+  { month: "December", population: 6.93 },
+  
 ];
 
 export default class LoanHistory extends React.PureComponent {
@@ -29,7 +36,7 @@ export default class LoanHistory extends React.PureComponent {
         LoanHistory
         <Paper>
           <Chart data={chartData}>
-            <BarSeries valueField="population" argumentField="year" />
+            <BarSeries valueField="population" argumentField="month" />
           </Chart>
         </Paper>
       </div>
